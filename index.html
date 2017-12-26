@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mySelf</title>
+    <link type="text/css" rel="stylesheet" href="Cantent/css/common.css">
+    <link type="text/css" rel="stylesheet" href="Cantent/css/common.css">
+    <link rel="stylesheet" href="Cantent/css/style.css">
+</head>
+<body ng-app="myApp">
+    <div ng-controller="userController">
+        <header class="head">
+            <span>返回</span>
+            <span>酒店预订</span>
+            <span>菜单</span>
+        </header>
+        <ui-view></ui-view>
+        <footer class="foot">
+            <span>我的</span>
+            <span>首页</span>
+            <span>我的</span>
+            <span>我的</span>
+        </footer>
+    </div>
+<script type="text/javascript" src="Scripts/js/angular.min.js"></script>
+<script type="text/javascript" src="Scripts/js/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="Scripts/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="App/app.js"></script>
+    <script type="text/javascript" src="App/Service/baseServer.js"></script>
+    <script type="text/javascript" src="App/Service/userServer.js"></script>
+<script type="text/javascript" src="App/Controller/userController.js"></script>
+<script type="text/javascript" src="App/Directive/userDirective.js"></script>
+</body>
+</html>
